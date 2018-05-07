@@ -26,5 +26,4 @@ roll_call_dwarves(dwarves)
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 newCalls = summon_captain_planet(planeteer_calls)
-puts newCalls
 
