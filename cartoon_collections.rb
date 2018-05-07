@@ -36,4 +36,4 @@ soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 puts find_the_cheese(soup)
 
 ingredients = ["garlic", "rosemary", "bread"]
-[uts find_the_cheese(ingredients)
+puts find_the_cheese(ingredients)
