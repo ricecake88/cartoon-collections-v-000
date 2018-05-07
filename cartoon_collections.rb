@@ -7,7 +7,7 @@ end
 def summon_captain_planet(calls)
   newCalls = []
   calls.map do |call|
-    newCalls << call << "!"
+    newCalls << "#{call}"" + "!"
   end
   newCalls
 end
