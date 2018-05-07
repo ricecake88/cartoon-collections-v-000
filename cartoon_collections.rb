@@ -12,8 +12,7 @@ def summon_captain_planet(calls)
   newCalls
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
 end
 
 def find_the_cheese# code an argument here
@@ -21,9 +20,4 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-roll_call_dwarves(dwarves)
-
-planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-newCalls = summon_captain_planet(planeteer_calls)
 
