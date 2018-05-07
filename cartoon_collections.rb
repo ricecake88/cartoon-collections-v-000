@@ -28,5 +28,9 @@ def find_the_cheese(food)
   return nil
 end
 
-short_words = ["puff", "go", "two"]
-puts long_planeteer_calls(short_words)
+
+snacks = ["crackers", "gouda", "thyme"]
+puts find_the_cheese(snacks)
+ 
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+puts find_the_cheese(soup)
