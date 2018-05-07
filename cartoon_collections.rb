@@ -21,7 +21,7 @@ end
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   food.each do |item|
-    yield item
+    
 end
 
 short_words = ["puff", "go", "two"]
