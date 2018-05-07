@@ -20,8 +20,7 @@ end
 
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food.each do |item|
-    
+  food.include(type)
 end
 
 short_words = ["puff", "go", "two"]
