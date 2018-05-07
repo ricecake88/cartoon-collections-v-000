@@ -5,6 +5,11 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
+  newCalls = []
+  calls.map do |call|
+    newCalls << call
+  end
+  newCalls
 end
 
 def long_planeteer_calls# code an argument here
@@ -18,3 +23,6 @@ end
 
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 roll_call_dwarves(dwarves)
+
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+
